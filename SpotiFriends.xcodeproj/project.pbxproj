@@ -37,6 +37,22 @@
 			);
 			target = A1C8EF8B2D519B020078D31D /* SpotiFriends */;
 		};
+		A1C8EFC32D519DDD0078D31D /* Exceptions for "SpotiFriends" folder in "SpotiFriendsTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Login/LoginView.swift,
+				Login/LoginViewModel.swift,
+			);
+			target = A1C8EF9F2D519B030078D31D /* SpotiFriendsTests */;
+		};
+		A1C8EFC42D519DDD0078D31D /* Exceptions for "SpotiFriends" folder in "SpotiFriendsUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Login/LoginView.swift,
+				Login/LoginViewModel.swift,
+			);
+			target = A1C8EFA92D519B030078D31D /* SpotiFriendsUITests */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -44,6 +60,8 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				A1C8EFB22D519B030078D31D /* Exceptions for "SpotiFriends" folder in "SpotiFriends" target */,
+				A1C8EFC32D519DDD0078D31D /* Exceptions for "SpotiFriends" folder in "SpotiFriendsTests" target */,
+				A1C8EFC42D519DDD0078D31D /* Exceptions for "SpotiFriends" folder in "SpotiFriendsUITests" target */,
 			);
 			path = SpotiFriends;
 			sourceTree = "<group>";
